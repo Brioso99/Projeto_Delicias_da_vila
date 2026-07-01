@@ -52,27 +52,21 @@ for (let i = 0; i < 50; i++) {
 
     document.body.appendChild(coelho);
 }
-// --- Função para enviar encomenda por WhatsApp (Páscoa) ---
+
 function enviarWhatsAppPascoa() {
-    // Vai buscar o nome
     let nome = document.getElementById("nomeClientePascoa").value;
     
-    // Verifica se a pessoa escreveu o nome
     if (nome.trim() === "") {
         alert("Por favor, escreva o seu nome antes de fazer a encomenda.");
         return; 
     }
 
-    // O TEU NÚMERO DE TELEFONE (Substitui pelos teus 9 dígitos)
     let numeroLoja = "351914544171"; 
     
-    // Mensagem personalizada para a Páscoa 🐰
     let mensagem = "Olá! O meu nome é " + nome + " e gostaria de fazer uma encomenda de Páscoa na Delícias da Vila.";
     
-    // Formata a mensagem para o link
     let mensagemFormatada = encodeURIComponent(mensagem);
-    
-    // Cria o link e abre o WhatsApp
+
     let url = "https://wa.me/" + numeroLoja + "?text=" + mensagemFormatada;
     window.open(url, "_blank");
 }
