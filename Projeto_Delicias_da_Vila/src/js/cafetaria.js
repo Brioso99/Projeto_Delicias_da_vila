@@ -25,7 +25,7 @@ const categorias = [
         ]
     },
     {
-        titulo: "Bebidas Brancas:",
+        titulo: "Bebidas Alcoólicas:",
         itens:[
             { nome: "Favito C/ Cerveja", preco: "1,90", un: "/un" },
             { nome: "Martini C/ Cerveja", preco: "1,90", un: "/un" },

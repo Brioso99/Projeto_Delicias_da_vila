@@ -3,14 +3,14 @@
 const produtosPascoa = [
 { nome: "Doce Branco", preco: "13,00", un: "/kg" },
 { nome: "Doce Marmelada", preco: "13,00", un: "/kg" },
-{ nome: "Farte De Morango", preco: "16,00", un: "/kg" },
+{ nome: "Tarte De Morango", preco: "16,00", un: "/kg" },
 { nome: "Miniaturas", preco: "17,00", un: "/un" },
 { nome: "Pão De Ló", preco: "18,50", un: "/un" },
 { nome: "Pão De Ló De Ovar", preco: "19,50", un: "/un" },
 { nome: "Rosca 1.0kg", preco: "3,40", un: "/un" },
 { nome: "Rosca 0.5kg", preco: "1,85", un: "/un" },
 { nome: "Rosca Doce", preco: "10,50", un: "/kg" },
-{ nome: "Tartes Fruta", preco: "15,00", un: "/un" },
+{ nome: "Tartes Frutas Variadas", preco: "15,00", un: "/un" },
 ];
 
 const contentorPascoa = document.getElementById('lista-pascoa');
