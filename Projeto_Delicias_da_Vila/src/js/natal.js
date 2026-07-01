@@ -67,5 +67,5 @@ function enviarWhatsAppNatal() {
     let mensagemFormatada = encodeURIComponent(mensagem);
 
     let url = "https://wa.me/" + numeroLoja + "?text=" + mensagemFormatada;
-    window.open(url, "_blank");
+    window.location.href = url;
 }
