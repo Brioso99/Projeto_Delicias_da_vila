@@ -63,7 +63,7 @@ function enviarWhatsAppPascoa() {
 
     let numeroLoja = "351914544171"; 
     
-    let mensagem = "Olá! O meu nome é " + nome + " e gostaria de fazer uma encomenda de Páscoa na Delícias da Vila.";
+    let mensagem = "Olá! O meu nome é " + nome + " e gostaria de fazer uma encomenda de Páscoa. ";
     
     let mensagemFormatada = encodeURIComponent(mensagem);
 

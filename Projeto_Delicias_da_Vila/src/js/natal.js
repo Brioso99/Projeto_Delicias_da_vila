@@ -7,7 +7,7 @@ const produtosNatal = [
 { nome: "Bolo Rei Escangalhado", preco: "17,50", un: "/kg" },
 { nome: "Bolo Rei Folhado", preco: "17,00", un: "/kg" },
 { nome: "Broinhas De Natal", preco: "18,00", un: "/kg" },
-{ nome: "Leiria", preco: "12,50", un: "/un" },
+{ nome: "Aletria", preco: "12,50", un: "/un" },
 { nome: "Miniaturas", preco: "17,00", un: "/kg" },
 { nome: "Pão De Ceia", preco: "2,00", un: "/un" },
 { nome: "Pão De Ló", preco: "18,50", un: "/kg" },
@@ -62,7 +62,7 @@ function enviarWhatsAppNatal() {
 
     let numeroLoja = "351914544171"; 
 
-    let mensagem = "Olá! O meu nome é " + nome + " e gostaria de fazer uma encomenda de Natal na Delícias da Vila.";
+    let mensagem = "Olá! O meu nome é " + nome + " e gostaria de fazer uma encomenda de Natal. ";
 
     let mensagemFormatada = encodeURIComponent(mensagem);
 

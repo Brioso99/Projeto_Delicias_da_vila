@@ -10,14 +10,13 @@ body {
     background-color: #fcf8f2;
     color: #333;
     padding: 20px; 
-    /* NOVAS REGRAS PARA O FUNDO */
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Faz com que o body ocupe sempre a altura total do ecrã */
+    min-height: 100vh; 
 }
 .menu-container img {
     width: 100%;
-    max-width: 450px; /* Isto é o que impede a imagem de ficar gigante! */
+    max-width: 450px; 
     border-radius: 15px; 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
     margin: 0 auto 20px auto; 
@@ -29,7 +28,7 @@ body {
 .menu-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra perfeitamente os botões */
+    align-items: center; 
     gap: 20px;
     margin-top: 15px;
     width: 100%;
@@ -39,7 +38,7 @@ body {
 .botao-categoria {
     display: block;
     width: 100%;           
-    max-width: 450px;      /* Limita a largura dos botões para ficarem iguais à foto */
+    max-width: 450px;    
     padding: 22px;         
     background-color: #8B5A2B; 
     color: #ffffff;
@@ -98,9 +97,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;              
-    margin-top: auto;        /* ISTO empurra as redes sociais e a assinatura lá para baixo */
+    margin-top: auto;        
     margin-bottom: 20px; 
-    padding-top: 40px;       /* Garante que não colam nos botões se o ecrã for pequeno */
+    padding-top: 40px;       
 }
 
 .icon-rodape {
@@ -137,8 +136,6 @@ body {
     background-color: #fcf8f2; 
     border-radius: 20px;       
     box-shadow: 0 4px 10px rgba(139, 90, 43, 0.15); 
-    
-    /* AS DUAS LINHAS QUE CORRIGEM O PROBLEMA: */
     align-self: flex-start;
     width: fit-content;
 }
@@ -164,10 +161,10 @@ body {
 .produto-item {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Se preferires o texto alinhado por baixo, muda para 'baseline' */
+    align-items: center; 
     padding: 18px 5px;
     border-bottom: 1px dashed #e6dbcb;
-    gap: 20px; /* NOVO: Garante sempre um espaço de segurança de 20px no meio */
+    gap: 20px; 
 }
 
 .produto-nome {
@@ -180,8 +177,8 @@ body {
     font-size: 1.1rem;
     color: #8B5A2B;
     font-weight: bold;
-    white-space: nowrap; /* NOVO: Impede que o preço e o '/un' se partam ou encolham */
-    text-align: right;   /* Garante que o preço fica sempre encostado à direita */
+    white-space: nowrap;
+    text-align: right;
 }
 .produto-preco small {
     font-size: 0.8rem;     
@@ -197,12 +194,11 @@ body {
     margin-bottom: 15px; 
 }
 .detalhe-produto {
-    font-size: 0.8rem;      /* Um pouco mais pequeno que o nome */
-    color: #888;            /* Cor cinzenta */
+    font-size: 0.8rem;      
+    color: #888;            
     font-weight: normal;    
-    margin-left: 0.5px;       /* Espaço entre o nome "Muffin" e o detalhe */
+    margin-left: 0.5px;      
     font-style: italic;
-    /* O "display: block" foi removido para o texto não saltar para baixo */
 }
 
 /* ---------------------------------------------------------------------------------*/
@@ -253,27 +249,25 @@ body {
         opacity: 0.1; 
     }
 }
-/* Botão WhatsApp com Tema de Natal */
+
 .tema-natal .botao-whatsapp {
-    background-color: #b30000; /* Vermelho Natalício (igual ao título) */
-    border: 2px solid #ff4d4d; /* Uma bordinha vermelha mais clara para dar destaque */
-    box-shadow: 0 4px 10px rgba(179, 0, 0, 0.25); /* Sombra avermelhada */
+    background-color: #b30000;
+    border: 2px solid #ff4d4d; 
+    box-shadow: 0 4px 10px rgba(179, 0, 0, 0.25); 
 }
 
 .tema-natal .botao-whatsapp:hover {
-    background-color: #8c0000; /* Vermelho mais escuro ao passar o rato */
+    background-color: #8c0000; 
     border-color: #b30000;
 }
-
-/* Fazer a borda da caixa de texto ficar vermelha quando clicamos lá */
 .tema-natal .input-nome:focus {
     border-color: #b30000;
     box-shadow: 0 0 8px rgba(179, 0, 0, 0.15);
 }
 /* ---------------------------------------------------------------------------------*/
-/* -                           Paginas Pascoa                                      -*/
+/* -                           Pagina Pascoa                                      -*/
 /* ---------------------------------------------------------------------------------*/
-/*Pagina Pascoa*/
+
 
 
 .tema-pascoa {
@@ -319,19 +313,17 @@ body {
     0% { transform: translateY(0); }
     100% { transform: translateY(-30px); }
 }
-/* Botão WhatsApp com Tema de Páscoa */
+
 .tema-pascoa .botao-whatsapp {
-    background-color: #d35400; /* Laranja cenoura da Páscoa */
-    border: 2px solid #e67e22; /* Laranja um pouco mais claro para a borda */
-    box-shadow: 0 4px 10px rgba(211, 84, 0, 0.25); /* Sombra alaranjada */
+    background-color: #d35400;
+    border: 2px solid #e67e22; 
+    box-shadow: 0 4px 10px rgba(211, 84, 0, 0.25); 
 }
 
 .tema-pascoa .botao-whatsapp:hover {
-    background-color: #a04000; /* Laranja mais escuro ao passar o rato */
+    background-color: #a04000;
     border-color: #d35400;
 }
-
-/* Fazer a borda da caixa de texto ficar laranja quando clicamos lá */
 .tema-pascoa .input-nome:focus {
     border-color: #d35400;
     box-shadow: 0 0 8px rgba(211, 84, 0, 0.15);
