@@ -33,6 +33,35 @@ body {
     margin-top: 15px;
     width: 100%;
 }
+/* Estilo do botão flutuante */
+.lang-flag {
+    position: fixed;     /* Fixa o elemento no ecrã */
+    bottom: 20px;        /* Distância do fundo */
+    right: 20px;         /* Distância da direita */
+    width: 45px;         /* Largura da bandeira */
+    height: 45px;        /* Altura da bandeira */
+    border-radius: 50%;  /* Torna a bandeira redonda (opcional) */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    z-index: 1000;       /* Garante que fica por cima dos outros elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+/* Efeito ao passar o rato por cima */
+.lang-flag:hover {
+    transform: scale(1.1); /* Faz a bandeira crescer um pouco */
+}
+
+/* Ajuste da imagem para preencher o círculo */
+.lang-flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /*Botoes Normais*/
 .botao-categoria {
@@ -67,15 +96,15 @@ body {
     display: none;
 }
 /*Botão Natal*/
-.botao-festivo.natal {
+/*.botao-festivo.natal {
     display: block;
     background-color: #B22222;
-}
+}*/
 /*Botão Pascoa*/
-.botao-festivo.pascoa{
+/*.botao-festivo.pascoa{
     display: block;
     background-color: pink;
-}
+}*/
 /*Botão Dia do Pai*/
 /*.botao-festivo.dia-pai{
     display:block;

@@ -60,7 +60,7 @@ function enviarWhatsAppNatal() {
         return; 
     }
 
-    let numeroLoja = "351914544171"; 
+    let numeroLoja = "351914531647"; 
 
     let mensagem = "Olá! O meu nome é " + nome + " e gostaria de fazer uma encomenda de Natal. ";
 
