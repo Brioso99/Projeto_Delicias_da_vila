@@ -14,13 +14,13 @@ const categorias = [
     {
         titulo: "Bebidas:", 
         itens: [
-            { nome: "Água 0.50 cl", preco: "1,20", un: "/un" },
+            { nome: "Água 0.50 cl", sub:"(Volta SDR 0,10€)" , preco: "1,20", un: "/un" },
             { nome: "Água Das Pedras", preco: "1,50", un: "/un" },
             { nome: "Compal", preco: "1,80", un: "/un" },
             { nome: "Frize Sabores", sub: "(Limão/Laranja/Groselha/Ananás)", preco: "1,80", un: "/un" },
-            { nome: "Refrigerante", sub: "(Coca-Cola/7up/Sumol/Ice Tea)", preco: "1,95", un: "/un" },
+            { nome: "Refrigerante", sub: "(Coca-Cola/7up/Sumol/Ice Tea)(Volta SDR 0,10€)", preco: "1,95", un: "/un" },
             { nome: "Leite Ucal", preco: "1,80", un: "/un" },
-            {nome:"Sumo Laranja Natural", preco:"1,30",un:"/un"},
+            {nome:"Sumo Laranja Natural", preco:"3,10",un:"/un"},
         ]
     },
     {

@@ -14,13 +14,13 @@ const categorias = [
     {
         titulo: "Cold Drinks:", // Bebidas
         itens: [
-            { nome: "Water 50cl", preco: "1,20", un: "/un" },
+            { nome: "Water 50cl",  sub:"(Volta SDR 0,10€)", preco: "1,20", un: "/un" },
             { nome: "Sparkling Water (Pedras)", preco: "1,50", un: "/un" },
             { nome: "Fruit Juice (Compal)", preco: "1,80", un: "/un" },
             { nome: "Flavored Sparkling Water", sub: "(Lemon/Orange/Redcurrant/Pineapple)", preco: "1,80", un: "/un" }, // Frize Sabores
-            { nome: "Soft Drink", sub: "(Coca-Cola/7up/Sumol/Ice Tea)", preco: "1,95", un: "/un" }, // Refrigerantes
+            { nome: "Soft Drink", sub: "(Coca-Cola/7up/Sumol/Ice Tea) (Volta SDR 0,10€)", preco: "1,95", un: "/un" }, // Refrigerantes
             { nome: "Chocolate Milk (Ucal)", preco: "1,80", un: "/un" }, // Leite Ucal
-            { nome: "Fresh Orange Juice", preco: "1,30", un: "/un" }, // Sumo Laranja Natural
+            { nome: "Fresh Orange Juice", preco: "3,10", un: "/un" }, // Sumo Laranja Natural
         ]
     },
     {
