@@ -1,4 +1,3 @@
-// Adiciona esta linha no topo do teu ficheiro cafetaria.js
 const contentor = document.getElementById('lista-padaria');
 
 const categorias = [

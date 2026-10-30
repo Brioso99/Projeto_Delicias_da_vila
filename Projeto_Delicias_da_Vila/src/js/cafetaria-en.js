@@ -1,34 +1,33 @@
-/// Adiciona esta linha no topo do teu ficheiro cafetaria-en.js
 const contentor = document.getElementById('lista-padaria');
 
 const categorias = [
     {
         titulo: "", 
         itens: [
-            { nome: "Americano", preco: "1,10", un: "/un" }, // Abatanado
-            { nome: "Espresso / Decaf", preco: "1,00", un: "/un" }, // Café/Descafeinado
-            { nome: "Hot Chocolate", preco: "3,20", un: "/un" }, // Chocolate Quente
-            { nome: "Coffee with Milk", preco: "1,15", un: "/un" }, // Meia de leite/Galão (Corrigido de "Whit")
+            { nome: "Americano", preco: "1,10", un: "/un" },
+            { nome: "Espresso / Decaf", preco: "1,00", un: "/un" },
+            { nome: "Hot Chocolate", preco: "3,20", un: "/un" },
+            { nome: "Small Latte", preco: "1,15", un: "/un" },
         ]
     },
     {
-        titulo: "Cold Drinks:", // Bebidas
+        titulo: "Drinks:", 
         itens: [
-            { nome: "Water 50cl",  sub:"(Volta SDR 0,10€)", preco: "1,20", un: "/un" },
-            { nome: "Sparkling Water (Pedras)", preco: "1,50", un: "/un" },
-            { nome: "Fruit Juice (Compal)", preco: "1,80", un: "/un" },
-            { nome: "Flavored Sparkling Water", sub: "(Lemon/Orange/Redcurrant/Pineapple)", preco: "1,80", un: "/un" }, // Frize Sabores
-            { nome: "Soft Drink", sub: "(Coca-Cola/7up/Sumol/Ice Tea) (Volta SDR 0,10€)", preco: "1,95", un: "/un" }, // Refrigerantes
-            { nome: "Chocolate Milk (Ucal)", preco: "1,80", un: "/un" }, // Leite Ucal
-            { nome: "Fresh Orange Juice", preco: "3,10", un: "/un" }, // Sumo Laranja Natural
+            { nome: "Water 50 cl", sub:"(Bottle Deposit Return €0.10)" , preco: "1,20", un: "/un" },
+            { nome: "Sparkling Water", preco: "1,50", un: "/un" },
+            { nome: "Fruit Nectars (Compal)", preco: "1,80", un: "/un" },
+            { nome: "Flavored Sparkling Water", sub: "(Lemon / Orange / Redcurrant / Pineapple)", preco: "1,80", un: "/un" },
+            { nome: "Soft Drink", sub: "(Coca-Cola / 7up / Sumol / Iced Tea) (Bottle Deposit Return €0.10)", preco: "1,95", un: "/un" },
+            { nome: "Chocolate Milk (Ucal)", preco: "1,80", un: "/un" },
+            {nome:"Fresh Orange Juice", preco:"3,10",un:"/un"},
         ]
     },
     {
-        titulo: "Alcoholic Drinks:", // Bebidas Alcoólicas
+        titulo: "Alcoholic Drinks:",
         itens:[
-            { nome: "Favaios/Martini with Beer", preco: "1,90", un: "/un" }, // Favaito/Martini C/ Cerveja
-            { nome: "Port Wine", preco: "1,70", un: "/un" }, // Porto
-            { nome: "Beer (Super Bock)", preco: "1,70", un: "/un" }, // Super Bock
+            { nome: "Favaios / Martini with Beer", preco: "1,90", un: "/un" },
+            { nome: "Port Wine", preco: "1,70", un: "/un" },
+            { nome: "Beer (Super Bock)", preco: "1,70", un: "/un" },
         ]
     }
 ];
