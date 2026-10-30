@@ -96,30 +96,30 @@ body {
     display: none;
 }
 /*Botão Natal*/
-.botao-festivo.natal {
+/*.botao-festivo.natal {
     display: block;
     background-color: #B22222;
-}
+}*/
 /*Botão Pascoa*/
-.botao-festivo.pascoa{
+/*.botao-festivo.pascoa{
     display: block;
     background-color: pink;
-}
+}*/
 /*Botão Dia do Pai*/
-.botao-festivo.dia-pai{
+/*.botao-festivo.dia-pai{
     display:block;
     background-color: skyblue;  
-}
+}*/
 /*Botão Dia da Mãe*/
-.botao-festivo.dia-mae{
+/*.botao-festivo.dia-mae{
     display:block;
     background-color:palevioletred;
-}
+}*/
 /*Botão Namorados*/
-.botao-festivo.namorados{
+/*.botao-festivo.namorados{
     display:block;
     background-color:red;
-}
+}*/
 /*Botoes Redes sociais*/
 /*Botoes Redes sociais*/
 .redes-sociais {
